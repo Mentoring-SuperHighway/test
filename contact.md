@@ -3,7 +3,7 @@ layout: default
 permalink: /contact/
 title: Contact
 ---
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mentoringsuperhighway@gmail.com" method="post">
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xnqlqjzn" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
