@@ -2,6 +2,9 @@
 permalink: /contact/
 title: Contact
 ---
+
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+
 <h1>Elegant Contact Form</h1>
 <form class="cf" action="https://formspree.io/f/xnqlqjzn" method="POST">
   <div class="half left cf">
