@@ -3,7 +3,7 @@ permalink: /contact/
 title: Contact
 ---
 
-<link href="style.css" rel="stylesheet"></link>
+<link href="style.css" rel="stylesheet">
 <form>      
   <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
   <input name="email" type="text" class="feedback-input" placeholder="Email" requires/>
