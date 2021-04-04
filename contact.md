@@ -2,18 +2,18 @@
 permalink: /contact/
 title: Contact
 ---
-<form action="https://formspree.io/f/xnqlqjzn" method="post" class="row">
-            <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
-            </div>
-            <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" required>
-            </div>
-            <div class="col-12">
-              <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="Type Message Here" required></textarea>
-            </div>
-            <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">send</button>
-            </div>
-          </form>
+<form accept-charset="UTF-8" action="https://formspree.io/f/xnqlqjzn" method="POST" enctype="multipart/form-data" target="_blank">
+          <div class="form-group">
+            <label for="exampleInputName">Name</label>
+            <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your name" required="required">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1" required="required">Email address</label>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputMessage" required="required">Enter Message</label>
+            <textarea type="message" name="message" class="form-control" id="exampleInputMessage" aria-describedby="messageHelp" placeholder="Enter message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
