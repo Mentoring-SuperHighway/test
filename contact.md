@@ -1,6 +1,6 @@
 ---
 layout: contact
-permalink: /contact
+permalink: /contact/
 published: true
 ---
    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mentoringsuperhighway@gmail.com" method="post">
