@@ -2,18 +2,15 @@
 permalink: /contact/
 title: Contact
 ---
-<form accept-charset="UTF-8" action="https://formspree.io/f/xnqlqjzn" method="POST" enctype="multipart/form-data" target="_blank">
-          <div class="form-group">
-            <label for="exampleInputName">Name</label>
-            <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your name" required="required">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1" required="required">Email address</label>
-            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputMessage" required="required">Enter Message</label>
-            <textarea type="message" name="message" class="form-control" id="exampleInputMessage" aria-describedby="messageHelp" placeholder="Enter message" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+<h1>Elegant Contact Form</h1>
+<form class="cf" action="https://formspree.io/f/xnqlqjzn" method="POST">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
