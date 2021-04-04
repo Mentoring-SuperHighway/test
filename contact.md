@@ -3,8 +3,7 @@ permalink: /contact/
 title: Contact
 ---
 
-(setq markdown-css-paths '("style.css"))
-
+<link href="style.css" rel="stylesheet"></link>
 <form>      
   <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
   <input name="email" type="text" class="feedback-input" placeholder="Email" requires/>
