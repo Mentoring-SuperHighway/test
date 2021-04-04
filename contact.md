@@ -2,7 +2,7 @@
 permalink: /contact/
 title: Contact
 ---
-<<form action="https://formspree.io/f/xnqlqjzn" method="post" class="row">
+<form action="https://formspree.io/f/xnqlqjzn" method="post" class="row">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
             </div>
