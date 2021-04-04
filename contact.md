@@ -13,4 +13,4 @@ title: Contact
     <textarea rows="5" name="message" id="message" placeholder="Enter Message Here" required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
-  <input type="submit" value="Submit"
+  <input type="submit" value="Submit">
